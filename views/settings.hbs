@@ -1,0 +1,20 @@
+<h1>Settings</h1>
+<div class="content">
+    <div>
+        <hr>
+        Group:
+        <hr>
+        {{#each returnData.group}}
+        <p>{{this.name}} - {{this.color}}</p>
+        {{/each}}
+
+    </div>
+    <div>
+        <hr>
+        Category:
+        <hr>
+        {{#each returnData.category.list}}
+        <p>{{this}}</p>
+        {{/each}}
+    </div>
+</div>

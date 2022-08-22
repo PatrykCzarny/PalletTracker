@@ -1,0 +1,22 @@
+<h1>List</h1>
+<div class="content">
+    {{#each returnData}}
+    <div class="row">
+        <span name="id"> {{this._id}}</span>
+        <span name="name"> {{this.name}}</span>
+        <span name="type">{{this.type}}</span>
+        {{!-- <input type="text" name="group" value="{{this.group}}"></input>
+        <input type="text" name="category" value="{{this.category}}"></input>
+        <input type="text" name="filling" value="{{this.filling}}"></input> --}}
+        <input type="text" name="asin" value="{{this.asin}}"></input>
+        <input type="text" name="quantity" value="{{this.quantity}}"></input>
+        {{!-- <input type="text" name="arrivalID" value="{{this.arrivalID}}"></input>
+        <input type="text" name="departureID" value="{{this.departureID}}"></input> --}}
+        <input type="text" name="use" value="{{this.use}}"></input>
+        <span name="lastUpdate"> {{this.lastUpdate}}</span>
+        <button type="submit" id="moveToScheduleDelivery">Move to Scheduler</button>
+        <button type="submit" id="update">Update</button>
+        <hr>
+    </div>
+    {{/each}}
+</div>

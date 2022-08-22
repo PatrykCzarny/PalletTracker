@@ -1,0 +1,26 @@
+<h1>Schedule Delivery from {{fc}}</h1>
+<div class="content">
+    {{#each scheduleDelivery}}
+    <div class="row">
+        <span>{{this._id}}</span>
+        <spoan></spoan>{{this.type}}</spoan>
+        <span>{{this.lastUpdate}}</span>
+        <button type="submit" id="backToStock">Back to Stock</button>
+        <span>Destination FC</span>
+        <input type="text" value="WRO2"></input>
+        <button type="submit" id="backToStock">Send</button>
+    </div>
+    {{/each}}
+</div>
+<hr>
+<h1>Expected Delivery to {{fc}}</h1>
+<div class="content">
+    {{#each expectedDelivery}}
+    <div class="row">
+        <span>{{this._id}}</span>
+        <span>{{this.type}}</span>
+        <span>{{this.lastUpdate}}</span>
+    </div>
+    {{/each}}
+</div>
+<hr>

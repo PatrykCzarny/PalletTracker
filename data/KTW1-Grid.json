@@ -1,0 +1,79 @@
+[{
+    "_id": {
+      "$oid": "62d82a0e2973ddbadfaf45a8"
+    },
+    "type": "row",
+    "name": "H100V200",
+    "group": "",
+    "category": "",
+    "filling": 0,
+    "asin": "",
+    "quantity": 0,
+    "arrivalID": "",
+    "departureID": "",
+    "dataType": "stock",
+    "use": "true",
+    "lastUpdate": {
+      "$date": {
+        "$numberLong": "1658341680000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62d82a0e2973ddbadfaf45a7"
+    },
+    "type": "row",
+    "name": "H100V200",
+    "group": "",
+    "category": "",
+    "filling": 0,
+    "asin": "",
+    "quantity": 0,
+    "arrivalID": "",
+    "departureID": "",
+    "dataType": "stock",
+    "user": "true",
+    "lastUpdate": {
+      "$date": {
+        "$numberLong": "1658341680000"
+      }
+    }
+  },
+  {
+    "_id": {
+      "$oid": "62d82ba32973ddbadfaf45ad"
+    },
+    "type": "row",
+    "name": "H110V200",
+    "group": "",
+    "category": "",
+    "filling": 0,
+    "asin": "",
+    "quantity": 0,
+    "arrivalID": "",
+    "departureID": "",
+    "dataType": "delivery",
+    "use": "true",
+    "lastUpdate": {
+      "$date": {
+        "$numberLong": "1658341200000"
+      }
+    }
+  }, {
+    "type": "group",
+    "groups": [
+      "STC",
+      "RC",
+      "NonIn"
+    ]
+  }, {
+    "type": "category",
+    "categories": [
+      "Arrived",
+      "Book",
+      "Ruler",
+      "Pen"
+    ]
+  }
+]

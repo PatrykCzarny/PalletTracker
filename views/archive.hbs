@@ -1,0 +1,14 @@
+<h1>Archive</h1>
+<hr>
+<div class="content">
+    {{#each returnData}}
+    <div>
+        <h2>{{this.lastUpdate}}</h2>
+        <p>type: {{this.type}}</p>
+        <p>Old Asin: {{this.old.asin}}</p>
+        <p>New Asin: {{this.new.asin}}</p>
+    </div>
+    <hr>
+</div>
+{{/each}}
+</div>
